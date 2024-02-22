@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins-Medium';
+    scroll-behavior: smooth;
+
+}
+
+.center, .sobre{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin:0 auto;
+    padding:0 2%;
+}
+
+html,body{
+    height:100%;
+    overflow-y: hidden;
+    overflow-x:hidden;
+}
+
+header{
+    height:200px;
+    padding:20px 0;
+}
+
+.logo{
+    width:50%;
+}
+
+.menu{
+    padding-top:30px;
+    width:50%;
+    text-align: right;
+}
+
+.menu a{
+    color:black;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+.menu a:hover{
+    color: #017143;
+    transition: 0.3s;
+}
+
+section.home{
+    height: calc(100% - 200px);
+    position: relative;
+}
+
+.extras{
+    position: absolute;
+    bottom:-640px;
+    right:-500px;
+    width: 1200px;
+    height:1200px;
+    border-radius:50%;
+    background-color: #017143;
+}
+
+.starbucks{
+    width: 30%;
+    margin-left: 40px;
+}
+
+.social-media{
+    position: fixed;
+    right: 30px;
+    top:350px;
+}
+
+.social-media img{
+    display: block;
+    width:23px;
+    margin:25px 0;
+}
+
+.texto-breve h1{
+    font-size: 50px;
+}
+
+.texto-breve p{
+    margin:20px 0;
+    color:black;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 25px;
+    max-width: 600px;
+    text-align: justify;
+    font-family: 'Poppins-Light';
+}
+
+.texto-breve button{
+    border:0;
+    background-color: #017143;
+    color:white;
+    border-radius:20px;
+    width:120px;
+    height:40px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+
+.texto-breve button:hover{
+    opacity: 60%;
+    transition: 0.2s;
+}
+
+.thumb{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin:0 auto;
+    padding-left: 20px;
+}
+
+.thumb li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.thumb li:hover{
+    transform: translateY(-15px);
+}
+
+.thumb li img{
+    max-width: 25px;
+}

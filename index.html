@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="pt br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks Coffee</title>
+    <link href="src/css/style.css" rel="stylesheet"/>
+    <link href="src/css/reset.css" rel="stylesheet"/>
+    <link href="src/css/fontes.css" rel="stylesheet"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+</head>
+    <header>
+        <div class="center">
+            <div class="logo"><img src="src/assets/logo.png"/></div>
+            <div class="menu">
+                <a href="#Home">Home</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#Menu">Menu</a>
+                <a href="#Novidades">Novidades</a>
+            </div>
+        </div>
+    </header>
+    <section class="home" id="home">
+        <div class="extras">
+            <img class="starbucks" src="src/assets/img1.png" />
+            <div class="social-media">
+                <a href="#Facebook"><img src="src/assets/facebook.png" /></a>
+                <a href="#Twitter"><img src="src/assets/x.png" /></a>
+                <a href="#Instagram"><img src="src/assets/instagram.png" /></a>
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="src/assets/thumb1.png" class="verde" onclick="imgSlider('src/assets/img1.png'); mudarCor('#017143')"></li>
+            <li><img src="src/assets/thumb2.png" class="rosa"  onclick="imgSlider('src/assets/img2.png');  mudarCor('#eb7495')"></li>
+            <li><img src="src/assets/thumb3.png" class="roxo"  onclick="imgSlider('src/assets/img3.png');  mudarCor('#d752b1')"></li>
+         </ul> 
+        <div class="center">
+            <div class="texto-breve">
+                <h1>Não é apenas café, <br/>é <span class="destaque" style="color: #017143; font-family: 'Poppins-Bold';">StarBucks</span></h1>
+                <p>
+                    Bem-vindo ao Starbucks, onde cada gole é uma experiência única.  Descubra o que nos torna mais do que apenas uma cafeteria - somos uma comunidade de amantes de café em busca de momentos memoráveis e conexões significativas. Junte-se a nós, onde cada xícara conta uma história.</p>
+                <button class="btn"><a href="#sobre">Leia mais</a></button>
+            </div>
+        </div>
+    </section>
+    <script src="src/js/index.js"></script>
+</body>
+</html>
